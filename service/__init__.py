@@ -16,8 +16,7 @@ def create_app():
     db.init_app(app)
 
     # Configure CORS
-    CORS(app)
-
+    CORS(app
     # Configure security headers
     Talisman(app, force_https=False)
 
